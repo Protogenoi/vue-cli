@@ -11,6 +11,12 @@
 
 </template>
 
+<style scoped>
+    div {
+        border: 1px solid blue;
+    }
+</style>
+
 <script>
 
     /*    export default {

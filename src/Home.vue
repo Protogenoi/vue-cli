@@ -21,10 +21,10 @@
 
 <script>
 
-    import Header from './Header.vue';
-    import Footer from './Footer.vue'
-    import ServerStatus from './ServerStatus.vue'
-    import ServerDetails from './ServerDetails';
+    import Header from './components/Shared/Header.vue';
+    import Footer from './components/Shared/Footer.vue'
+    import ServerStatus from './components/Server/ServerStatus.vue'
+    import ServerDetails from './components/Server/ServerDetails';
 
     export default {
 

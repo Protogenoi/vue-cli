@@ -1,25 +1,29 @@
 <template>
-    <div>
-        <p>Server status: {{ status }}</p>
-        <hr>
-        <button @click="changeStatus">Change status</button>
+    <div class="col-xs-12 col-sm-6">
+        <ul class="list-group">
+            <li
+                    class="list-group-item"
+                    v-for="index in 5">
+                Server #{{ index }}
+            </li>
+        </ul>
     </div>
 
 </template>
 
 <script>
 
-    export default {
-        data: function () {
-            return {
-                status: 'Critical'
+    /*    export default {
+            data: function () {
+                return {
+                    status: 'Critical'
+                }
+            },
+            methods: {
+                changeStatus() {
+                    this.status = 'Normal';
+                }
             }
-        },
-        methods: {
-            changeStatus() {
-                this.status = 'Normal';
-            }
-        }
-    }
+        }*/
 
 </script>

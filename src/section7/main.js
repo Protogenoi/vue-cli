@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from '../App.vue'
+import App from '../section10/App.vue'
 import Home from './Home.vue';
 
 

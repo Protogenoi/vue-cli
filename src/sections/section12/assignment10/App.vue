@@ -6,7 +6,13 @@
                 <button v-myOn:click="greet">Touch me</button>
                 <!-- Exercise -->
                 <!-- Build a Custom Directive which works like v-on (Listen for Events) -->
+                <hr>
+                <div
+                        style="width: 100px; height: 100px; background-color: lightgreen"
+                        v-customOn:mouseenter="mouseEnter"
+                        v-customOn:mouseleave="mouseLeave">
 
+                </div>
             </div>
         </div>
     </div>
@@ -27,6 +33,12 @@
         methods: {
             greet() {
                 alert('Hey!')
+            },
+            mouseEnter() {
+                console.log('Mouse Entered!');
+            },
+            mouseLeave() {
+                console.log('Mouse Leave');
             }
         }
     }

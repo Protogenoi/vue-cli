@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue from 'vue/types';
 
 export const loadData = ({commit}) => {
     Vue.http.get('data.json')

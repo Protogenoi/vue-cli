@@ -37,7 +37,7 @@
 
 <script>
 
-    import {mapActions} from 'vuex';
+    import {mapActions} from 'vuex/types';
 
     export default {
         data() {

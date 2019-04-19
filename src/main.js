@@ -8,7 +8,7 @@ import store from './store'
 
 
 axios.defaults.baseURL = 'https://vs-js-axios.firebaseio.com';
-axios.defaults.headers.common['Authorization'] = 'asdasds';
+// axios.defaults.headers.common['Authorization'] = 'asdasds';
 axios.defaults.headers.get['Accepts'] = 'application/json';
 
 const reqInterceptor = axios.interceptors.request.use(config => {

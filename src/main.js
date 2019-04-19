@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import Vuelidate from 'vuelidate'
 import axios from 'axios'
 
 import router from './router'
 import store from './store'
 
+Vue.use(Vuelidate);
 
 axios.defaults.baseURL = 'https://vs-js-axios.firebaseio.com';
 // axios.defaults.headers.common['Authorization'] = 'asdasds';
@@ -29,4 +30,4 @@ new Vue({
   router,
   store,
   render: h => h(App)
-})
+});
